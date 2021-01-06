@@ -1,4 +1,4 @@
-FROM tensorflow/serving:latest-gpu
+FROM tensorflow/serving:2.3.0-gpu
 
 WORKDIR /tmp
 RUN apt update && \
